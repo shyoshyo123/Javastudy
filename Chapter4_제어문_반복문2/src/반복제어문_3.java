@@ -73,7 +73,7 @@ public class 반복제어문_3 {
     	 //종료 확인
     	 System.out.print("게임을 종료할까요?(y/n)");
     	 char c=scan.next().charAt(0);
-    	 if(c=='y'||c=='n')
+    	 if(c=='y')
     	 {
     		 System.out.println("Game over!");
     		 break;
