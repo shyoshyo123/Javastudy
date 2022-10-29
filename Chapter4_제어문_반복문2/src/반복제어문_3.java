@@ -70,30 +70,27 @@ public class 반복제어문_3 {
     		  
     		  
     	 }
-    	 //종료 확인
-    	  System.out.print("게임을 종료할까요?(y/n):");
+    			 // 종료 확인 
+		        	while(true) {
+		        	 System.out.print("게임을 종료할까요?(y/n):");
 		        	 char c=scan.next().charAt(0); // Scanner로 문자한개 받기 
-		        	 if(c=='y')
+		        	 if(c=='y')		        	 
+		        	  { System.out.println("Game Over!!");
+		        		 break; // while을 종료		        	 	       	 	        	 
+		        	 } else if(c=='n') 
+		        	 {   System.out.println();
+		        	 }	 else if(c!='y'||c!='n')
 		        	 {
-		        		 System.out.println("Game Over!!");
-		        		 break; // while을 종료
-		        	 } 
-		        	 
-		        	 else if(c=='n')
-		        	 {
-		        		 System.out.println();
-		        		 
-		        	 }	  
-		        	 else {
-		        		 System.out.println("잘못된 입력입니다");
-		        		 break;
-		        	 }      	
-		        	
+		        		 System.out.println("(y/n)을 입력하세요!!");
+		        		 continue;
+		        	 }
+		        	  
 		        	 
 		        }
-		        System.out.printf("%d전 %d승 %d무 %d패\n",count,win,same,lose);
+		        	System.out.printf("%d전 %d승 %d무 %d패\n",count,win,same,lose);
+		        	}
 		        	 
 		        }
-		        // 게임 종료 여부 확인 
+		       
 		      
 	}
