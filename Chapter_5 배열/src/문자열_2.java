@@ -2,6 +2,7 @@ import java.util.Arrays;
 
 //concat : 문자열 결합
 //문자열.concat(문자열) ==>문자열+문자열
+//
 public class 문자열_2 {
 
 	public static void main(String[] args) {
