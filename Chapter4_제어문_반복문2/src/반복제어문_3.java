@@ -83,4 +83,5 @@ public class 반복제어문_3 {
       System.out.printf("%d전 %d승 %d무 %d패\n",count,win,same,lose);
 	}
 
-	}}
+	}
+	}
