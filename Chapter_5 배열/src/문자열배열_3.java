@@ -623,7 +623,6 @@ public class 문자열배열_3 {
         
         System.out.println("========"+curpage+"page========");
         System.out.println();
-    
         int j=0; //10개씩 가져오는 변수
         int rowSize=10; //인덱스 시작위치 잡는 방법
         int pagecnt=(curpage*10)-10; //인덱스의 시작위치
