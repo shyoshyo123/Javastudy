@@ -618,6 +618,9 @@ public class 문자열배열_3 {
         //총개수 ==> 24 => 24/10 ==> 2+1 10 10 4
               //                 24/10.0 => 2.4 =>3  
         
+        
+        
+        
         System.out.print("페이지 입력(1~"+ totalpage +"):");
         curpage=sc.nextInt();       
         System.out.println(curpage+"page/"+ totalpage+"pages");
